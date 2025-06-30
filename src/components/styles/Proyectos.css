@@ -1,0 +1,61 @@
+.Projects {
+    padding: 20px;
+    background-color:  rgb(246, 237, 228);
+}
+
+.Projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(0, 183, 166);
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Project-card h3 {
+    color: rgb(246, 237, 228);
+    margin: 10px;
+}
+.Project-card p {
+    color: rgb(246, 237, 228);
+    margin: 10px;
+}
+
+.Project-card button {
+    background-color:  rgb(246, 237, 228);
+    color:rgb(0, 183, 173);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Project-card button:hover {
+    background-color:  rgb(246, 237, 228);
+}
+
+.Projects h2{
+    color: rgb(0, 183, 173);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Project-card img {
+  width: 100%;   /* Que ocupe todo el ancho */
+  height: auto;  /* Mantiene proporción */
+  object-fit: cover;
+  /* Si necesitas recortar */
+}
+
+.Project-card div {
+  padding: 15px;
+}

@@ -1,0 +1,46 @@
+.Habilidades {
+  padding: 20px;
+  background-color: rgb(246, 237, 228);
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Habilidades-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(0, 183, 166);
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.Habilidades-card:hover {
+  transform: translateY(-5px);
+}
+
+.Habilidades-card img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Habilidades-card h3,
+.Habilidades-card p {
+  color: rgb(246, 237, 228);
+  margin: 10px 0 0 0;
+}
+
+.Habilidades h2 {
+  color: rgb(0, 183, 173);
+  text-align: center;
+  margin-bottom: 20px;
+}

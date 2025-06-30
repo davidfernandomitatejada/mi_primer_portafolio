@@ -1,0 +1,11 @@
+Main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 237, 228);
+    align-items: center;
+}
+Main h1 {
+    background-color: rgb(246, 237, 228);
+    color: rgb(0, 183, 173);
+    margin-top: 10px;
+}
