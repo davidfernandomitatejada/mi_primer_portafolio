@@ -9,7 +9,7 @@ const Proyectos = () => {
       id: 1,
       title: "Portfolio React",
       description: "Un portfolio personal hecho con React.",
-      url: "https://github.com/tuusuario/portfolio-react",
+      url: "https://github.com/davidfernandomitatejada/mi_primer_portafolio.git",
       image: "/react.svg",
     },
     {

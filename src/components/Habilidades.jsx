@@ -8,7 +8,7 @@ const Habilidades = () => {
     {
       id: 1,
       nombre: "JavaScript",
-      nivel: "Avanzado",
+      nivel: "Intermedio",
       imagen: "/js.svg",
     },
     {
