@@ -24,3 +24,21 @@ Main h1 {
   height: 225px;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .fondo {
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #intro {
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #fotopers {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+}
