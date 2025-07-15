@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
+const base = import.meta.env.BASE_URL;
 import { useInView } from "react-intersection-observer";
 import "./styles/Habilidades.css";
 
@@ -9,22 +10,32 @@ const Habilidades = () => {
       id: 1,
       nombre: "JavaScript",
       nivel: "Intermedio",
-      imagen: "/js.svg",
+      imagen: `${base}assets/js.svg`,
     },
     {
       id: 2,
       nombre: "React",
       nivel: "Intermedio",
-      imagen: "/react.svg",
+      imagen: `${base}assets/react.svg`,
     },
     {
       id: 3,
       nombre: "Node.js",
       nivel: "Intermedio",
-      imagen: "/node.svg",
+      imagen: `${base}assets/node.svg`,
     },
-    { id: 4, nombre: "CSS", nivel: "Avanzado", imagen: "/css.svg" },
-    { id: 5, nombre: "HTML", nivel: "Avanzado", imagen: "/html5.svg" },
+    {
+      id: 4,
+      nombre: "CSS",
+      nivel: "Avanzado",
+      imagen: `${base}assets/css.svg`,
+    },
+    {
+      id: 5,
+      nombre: "HTML",
+      nivel: "Avanzado",
+      imagen: `${base}assets/html5.svg`,
+    },
   ];
   return (
     <section className="Habilidades">
