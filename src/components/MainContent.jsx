@@ -4,8 +4,9 @@ import Proyectos from "./Proyectos";
 import Habilidades from "./Habilidades";
 import Contacto from "./Contacto";
 import Footer from "./Footer";
+const base = import.meta.env.BASE_URL;
 
-let foto = "/public/fotopers.jpg";
+let foto = `${base}assets/fotopers.jpg`;
 
 const MainContent = () => {
   return (

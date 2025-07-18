@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Proyectos.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+const base = import.meta.env.BASE_URL;
 const Proyectos = () => {
   const myProjects = [
     {
@@ -10,21 +10,21 @@ const Proyectos = () => {
       title: "Portfolio React",
       description: "Un portfolio personal hecho con React.",
       url: "https://github.com/davidfernandomitatejada/mi_primer_portafolio.git",
-      image: "/react.svg",
+      image: `${base}assets/react.svg`,
     },
     {
       id: 2,
       title: "API REST Node",
       description: "Backend RESTful API con Node.js y Express.",
       url: "https://github.com/davidfernandomitatejada/programapoke2.git",
-      image: "/python.svg",
+      image: `${base}assets/python.svg`,
     },
     {
       id: 3,
       title: "Tienda Online",
       description: "Proyecto de e-commerce con React y Firebase.",
       url: "https://github.com/davidfernandomitatejada/fortubetpage.git",
-      image: "/html5.svg",
+      image: `${base}assets/html5.svg`,
     },
   ];
 
